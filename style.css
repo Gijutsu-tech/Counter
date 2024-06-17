@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: #242424;
+    color: white;
+    padding: 30px;
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.btns{
+    margin: 20px 0px;
+    gap: 37px;
+}
+
+.rounded{
+    border-radius: 1000000px;
+}
+
+#inc{
+    padding: 11px 16.5px;
+}
+
+#dec{
+    padding: 10px 17.5px;
+    font-size: 18.5px;
+}
+
+button{
+    padding: 7px 40px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+.countBox{
+    margin-top: 15px;
+}
+
+#count{
+    font-size: 30px;
+}
+
+.saveBox{
+    gap: 20px;
+}
